@@ -1,0 +1,116 @@
+.body{
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid black;
+  background-image: url(http://www.titaniumkeys.com/tank/drawing-background-simple.png);
+  
+}
+
+.titleName{
+  font-size: 3em;
+  font-family: courier;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(150, 150, 150);
+}
+
+.addbox{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-bottom: 2px solid black;
+  font-family: courier;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3%;
+}
+
+.addFormBox{
+  font-size: 2em;
+  margin-top: 7%;
+  text-align: left;
+}
+
+.inputBox{
+  width: 100%;
+}
+.postButton{
+  margin-left: 3%;
+  font-size: 1.1em;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  font-family: courier;
+}
+
+.postButtonBox{
+  text-align: center;
+}
+
+.postButton:hover{
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.postbox {
+padding-left: 2%;
+font-size: 1.2em;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title{
+  color: rgb(70,70,70);
+  font-weight: bold;
+}
+
+.description{
+  font-weight: 100;
+  color: dimgrey;
+}
+.likesbox{
+  margin-bottom: 2%;
+}
+.likes{
+  color: green;
+}
+.dislikes{
+  color:red;
+}
+
+.likesButtons{
+  font-size: 1.1em;
+  margin:1%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20%;
+}
+.likesButtons:hover{
+  background-color: grey;
+  color: white;
+  border:black;
+  cursor: pointer;
+}
+
+.deletebutton {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: none;
+  float: right;
+  background-color: white;
+  color:red;
+  font-size: 1.5em;
+}
+
+.deletebutton:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+  color: black;
+  cursor: pointer;
+}
+
+.comments{
+  text-align: left;
+  padding-left: 2%;
+  border-bottom: 1px dashed black;
+}
