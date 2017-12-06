@@ -11,11 +11,11 @@ function ListComponent(props){
                   <h5 className="description">{props.issue.description}</h5>
                       <div className="likesbox">
                             
-                            <span className="likes"> {props.issue.likes} Likes</span>
-                            <button className="likesButtons" onClick={()=>{props.likes(props.issue)}}>+</button>
+                            <span className="likes"> {props.issue.likes} </span>
+                            <button className="likesButtons" onClick={()=>{props.likes(props.issue)}}><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
                             
-                            <button className="likesButtons" onClick={()=>{props.dislikes(props.issue)}}>-</button>
-                            <span className="dislikes">{props.issue.dislikes} Dislikes</span>  
+                            <button className="likesButtons" onClick={()=>{props.dislikes(props.issue)}}><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+                            <span className="dislikes">{props.issue.dislikes} </span>  
                       </div>
                     <CommentContainer id= {props.issue._id}/>
               <hr/>

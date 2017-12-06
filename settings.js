@@ -1,8 +1,5 @@
 module.exports = {
-    port: process.env.PORT,
-    db: process.env.DB,
-    secret: process.env.SECRET
+    port: process.env.PORT || 8000,
+    db: process.env.DB || "mongodb://localhost:27017/issue"
+    //secret: process.env.SECRET
 }
-
-//forum is the password for "username"
-//"mongodb://<username>:<forum>@ds119406.mlab.com:19406/forum",

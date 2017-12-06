@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const issuesURL = "http://localhost:8000/issue/"
+const issuesURL = "/issue/"
 
 export function loadIssues(){
   return(dispatch)=>{

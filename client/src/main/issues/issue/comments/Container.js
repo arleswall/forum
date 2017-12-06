@@ -21,7 +21,7 @@ class CommentContainer extends React.Component{
   
   
   componentDidMount(){
-    axios.get(`http://localhost:8000/comment?issue=${this.props.id}`).then(response => {
+    axios.get(`/comment?issue=${this.props.id}`).then(response => {
       this.setState({
         comments: response.data.reverse()
       })
@@ -42,7 +42,7 @@ class CommentContainer extends React.Component{
   
   handleSubmit(event){
     event.preventDefault();
-  axios.post('http://localhost:8000/comment/', {...this.state.inputs, issue: this.props.id}).then(response => {
+  axios.post('/comment/', {...this.state.inputs, issue: this.props.id}).then(response => {
     console.log(response.data)
     this.setState((prevState)=>{
       return {
